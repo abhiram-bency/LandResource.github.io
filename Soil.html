@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Soil</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="index.css" rel="stylesheet">
+<style>    
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+.land_image_home{
+  padding-top: 60px;
+  padding-left: 50px;
+  width: auto;
+}
+
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">HOME</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact us</a>
+    <a href="team.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Our Team</a>
+  </div>
+</div>
+</nav>
+
+<!-- Sidebar -->
+<div class="sidebar">
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  
+  <div class="col-2">
+    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">Soil</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-1-1">Soil Formation</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-2">Processes</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-3">Factors</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-4">Soil profile </a>
+        </nav>
+        <a class="nav-link" href="#item-2">Functions of Soil</a>
+        <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1" href="#item-2-1">Facilitates nutrient cycle</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-2">Food and other biomass production</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-3">Stores water and regulates water supply</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-4">Regulates the emission of trace gases</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-5">Filter ground water</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-6">Degrades pollutants</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-7">Biological habitat</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-8">Source of clay</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-9">Platform for man-made structures</a>
+          </nav>
+        <a class="nav-link" href="#item-3">Soil Erosion</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-3-1">Normal erosion</a>
+          <a class="nav-link ms-3 my-1" href="#item-3-2">Anthropogenic erosion</a>
+          <a class="nav-link ms-3 my-1" href="#item-3-3">Item 3-3</a>
+        </nav>
+        <a class="nav-link" href="#item-4">Causes of soil erosion</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-4-1">Climatic agents</a>
+          <a class="nav-link ms-3 my-1" href="#item-4-2">Water induced erosion</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1" href="#item-4-2-1">Splash erosion</a>
+            <a class="nav-link ms-3 my-1" href="#item-4-2-2">Sheet erosion</a>
+            <a class="nav-link ms-3 my-1" href="#item-4-2-3">Rill erosion</a>
+            <a class="nav-link ms-3 my-1" href="#item-4-2-4">Gully erosion</a>
+            <a class="nav-link ms-3 my-1" href="#item-4-2-5">Slip erosion</a>
+            <a class="nav-link ms-3 my-1" href="#item-4-2-6">Stream bank erosion</a>
+          </nav>
+          <a class="nav-link ms-3 my-1" href="#item-4-3">Wind induced erosion</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1" href="#item-4-3-1">Suspension erosion</a>
+            <a class="nav-link ms-3 my-1" href="#item-4-3-2">Saltation erosion</a>
+            <a class="nav-link ms-3 my-1" href="#item-4-3-3">Surface creep erosion</a>
+          </nav>
+        </nav>
+        <a class="nav-link" href="#item-4">Effects of soil erosion</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-5-1">Decreased productivity of land</a>
+          <a class="nav-link ms-3 my-1" href="#item-5-2">Desertification of land</a>
+          <a class="nav-link ms-3 my-1" href="#item-5-3">Deposition of soil in water bodies</a>
+          <a class="nav-link ms-3 my-1" href="#item-5-4">Reduction of agricultural land in river banks</a>
+        
+        <a class="nav-link" href="#item-6">Control of soil erosion</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-6-1">Conservational till farming</a>
+          <a class="nav-link ms-3 my-1" href="#item-6-2">Stubble mulching</a>
+          <a class="nav-link ms-3 my-1" href="#item-6-3">Contour farming</a>
+          <a class="nav-link ms-3 my-1" href="#item-6-4">Contour bunding</a>
+          <a class="nav-link ms-3 my-1" href="#item-6-5">check dams</a>
+          <a class="nav-link ms-3 my-1" href="#item-6-6">Terracing</a>
+          <a class="nav-link ms-3 my-1" href="#item-6-7">Strip cropping</a>
+          <a class="nav-link ms-3 my-1" href="#item-6-8">Alley cropping</a>
+          <a class="nav-link ms-3 my-1" href="#item-6-9">Wind breaks</a>
+        </nav>
+      </nav>
+    </nav>
+  </div>
+</nav>
+</div>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px; padding-top: 80px;">
+
+<!--w3-twothird(add this here for old look) -->
+  <div class="w3-row">
+    <div class="w3-container">
+        <div class="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+              <div class="w3-text-teal" id="item-1">
+                <h1>Soil</h1>
+                <div class="soil_image_home"></div>
+                <p style="margin-top: 20px;">
+                  Soil is a dynamic natural body capable of supporting a vegetative cover. it is composed largely of weathered rocks,water, oxygen and organic materials. 
+                </p>
+              </div>
+              <div id="item-1-1">
+                <h3>Soil Formation</h3>
+                <p>
+
+                </p>
+              </div>
+              <div id="item-1-2">
+                <h4>Processes</h4>
+                <p>
+                  <b>Physical weathering:</b> Also known as mechanical weathering, physical weathering is the breakdown of rocks into smaller pieces without changing their chemical composition.
+                  Common processes of physical weathering include freeze-thaw cycles, where water seeps into cracks in rocks, freezes, expands, and causes the rock to crack further.
+                  Another form of physical weathering is exfoliation, where outer layers of rock peel away due to pressure release as overlying rocks are eroded away.
+                </p>
+                <p>
+                  <b>Chemical weathering:</b> Chemical weathering involves the alteration of rocks and minerals through chemical reactions.
+                  Water is a key agent in chemical weathering, as it can dissolve minerals in rocks and transport them away.
+                  Acid rain, which contains sulfuric and nitric acids, can accelerate chemical weathering by reacting with minerals in rocks, particularly those containing calcium carbonate.
+                </p>
+                <p>
+                  <b>Biological weathering:</b> Biological weathering is the breakdown of rocks and minerals by living organisms.
+                  Plant roots can exert pressure on rocks, causing them to crack and break apart.
+                  Burrowing animals, such as earthworms and burrowing insects, can break down rocks as they dig through the soil.
+                  Some organisms, like lichens and mosses, release acids that can dissolve minerals in rocks, contributing to chemical weathering.
+                </p>
+              </div>
+              <div id="item-1-3">
+                <h3>Factors</h3>
+                <p>
+                  Parent material
+                </p>
+                <p>
+                  Living organisms
+                </p>
+                <p>
+                  Climate
+                </p>
+                <p>
+                  Topography
+                </p>
+                <p>
+                  Time
+                </p>
+
+
+              </div>
+              <div id="item-1-4">
+                <h3>Soil profile</h3>
+                <img src="https://i.pinimg.com/564x/2c/d7/b0/2cd7b0049c087babf69f10ab7fcdac97.jpg" alt="soil_profile_image">
+                </img>
+              </div>
+
+              <div class="w3-text-teal" id="item-2">
+                <h1>Functions of Soil</h1>
+              </div>
+              <div id="item-2-1">
+                <h4>Facilitates nutrient cycle</h4>
+                <p>Soil plays a crucial role in facilitating the nutrient cycle, which is the movement and exchange of nutrients between living organisms and their environment. Here's how soil contributes to this cycle:
+                  Nutrient Storage: Soil acts as a reservoir for nutrients, holding them in a form that plants and other organisms can use. Nutrients are stored in organic matter, such as decaying plant and animal material, as well as in the mineral components of soil.
+                  Nutrient Absorption: Plant roots absorb nutrients from the soil, including essential elements like nitrogen, phosphorus, and potassium, as well as micronutrients like iron and zinc. These nutrients are necessary for plant growth and development.
+                  Nutrient Release: Soil microorganisms break down organic matter, releasing nutrients in a form that plants can take up. This process, known as mineralization, replenishes the nutrient pool in the soil.
+                  Nutrient Cycling: Soil facilitates the cycling of nutrients between living organisms and the environment. For example, when plants and animals die, their remains decompose in the soil, returning nutrients to the soil for reuse by other organisms.
+                  Nutrient Transformation: Soil microorganisms are involved in nutrient transformation processes, such as nitrification and denitrification, which convert nitrogen between different forms that are more or less available to plants.
+                  Nutrient Leaching: Excess nutrients in the soil can be leached out of the soil profile and into groundwater, where they can be transported to rivers, lakes, and oceans. This process can contribute to nutrient pollution but also plays a role in nutrient cycling on a larger scale.
+                  Overall, soil plays a vital role in the nutrient cycle by storing, absorbing, releasing, cycling, and transforming nutrients, ensuring that they are available to support plant growth and sustain ecosystems.
+                </p>
+              </div>
+              <div id="item-2-2" style="margin-top: 10px;">
+                <h4>Food and other biomass production</h4>
+                <img src="data:image/jpeg;base64,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" alt="food and bio mass prdoduction" height="430px" width="650px">
+              </div>
+              <div id="item-2-3" style="margin-top: 10px;">
+                <h4>Stores water and regulates water supply</h4>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoMCN5awMY399_3i8QZazwekwOJNiUs1V9Aw&usqp=CAU" alt="water supply" height="430px" width="650px">
+              </div>
+              <div id="item-2-4" style="margin-top: 10px;">
+                <h4>Regulates the emission of trace gases</h4>
+                <p>Soil plays a crucial role in regulating the emission of trace gases, including greenhouse gases like carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O).
+                   These gases are produced and consumed by various biological and chemical processes in the soil. 
+                </p>
+              </div>
+              <div id="item-2-5">
+                <h4>Filter ground water</h4>
+                <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/graphics/general/groundwater.jpg?crop=62%2C0%2C835%2C522&wid=640&hei=400&scl=1.305" alt="filtered  ground water" height="430px" width="650px">
+              </div>
+              <div id="item-2-6" style="margin-top: 10px;">
+                <h4>Degrades pollutants</h4>
+                <p>Soil can degrade pollutants through various physical, chemical, and biological processes, collectively known as soil remediation or soil detoxification. 
+                  These processes help to reduce the concentration and toxicity of pollutants, making the soil less harmful to the environment and human health.
+                  Physical Processes: 
+                  Dilution: Pollutants can be diluted as they are dispersed in the soil, reducing their concentration.
+                  Adsorption: Pollutants can adhere to soil particles, reducing their mobility and availability for uptake by plants or leaching into groundwater.
+                  Volatilization: Some pollutants can evaporate from the soil into the atmosphere, reducing their concentration in the soil. 
+                  Chemical Processes:
+                  Oxidation-Reduction Reactions: Pollutants can undergo chemical reactions, such as oxidation or reduction, that change their chemical structure and reduce their toxicity.
+                  Hydrolysis: Some pollutants can be broken down by water molecules, leading to the formation of less harmful compounds.
+                  Complexation:Pollutants can form complexes with other substances in the soil, reducing their bioavailability and toxicity.
+                  Biological Processes:
+                  Microbial Degradation: Soil microorganisms can break down pollutants into simpler, less toxic compounds through metabolic processes.
+                  Plant Uptake: Some plants have the ability to take up and accumulate pollutants in their tissues, a process known as phytoremediation.
+                  Enzymatic Transformation: Soil enzymes can catalyze the degradation of pollutants, converting them into less harmful substances.
+                </p>
+                <img src="" alt="">
+              </div>
+              <div id="item-2-7">
+                <h4>Biological habitat</h4>
+                <p>Land serves as a crucial biological habitat, supporting a wide range of organisms and ecosystems. 
+                  From microscopic bacteria to large mammals, land habitats provide diverse environments for life to thrive. 
+                  Land provides Biodiversity , Ecosystem Services:, Habitat Diversity, Food Web, Human Impact, Human Impact, Conservation Overall, land habitats are essential components of the biosphere, supporting a rich diversity of life and providing invaluable ecosystem services. 
+                  Preserving and protecting these habitats is essential for maintaining biodiversity and ensuring the health and well-being of ecosystems and human societies.
+                </p>
+                <img src="" alt="">
+              </div>
+              <div id="item-2-8">
+                <h4>Source of clay</h4>
+                <p>Soil is a primary source of clay, which is a type of fine-grained natural rock or soil material that is predominantly composed of hydrated phyllosilicate minerals. Clay minerals are formed over long periods of time through the weathering and erosion of rocks containing feldspar, such as granite and basalt, under the influence of water, temperature changes, and chemical processes
+                   Clay content in soil varies widely depending on factors such as the parent material, climate, and the duration and intensity of weathering. Soils with high clay content are known as clay soils, and they have unique properties that affect their fertility, drainage, and ability to retain water and nutrients.
+                </p>
+                <img src="" alt="">
+              </div>
+              <div id="item-2-9">
+                <h4>Platform for man-made structures: buildings, highways</h4>
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/43/93/buildings-under-construction-in-process-urban-vector-17364393.jpg" alt="human_made_structure">
+              </div>
+              <div class="w3-text-teal"  id="item-3" style="margin-top: 10px;">
+                <h2>Soil Erosion</h2>
+                <p>
+                  Soil erosion is the process by which soil is removed from the land surface by wind, water, ice, or gravity. It is a natural process that can be accelerated by human activities such as agriculture, deforestation, and construction. Soil erosion can have serious environmental and economic consequences, including loss of soil fertility, reduced crop yields, increased sedimentation in waterways, and habitat destruction.
+                </p>
+              </div>
+              <div id="item-3-1">
+                <h5>Normal erosion or geologic erosion</h5>
+                <p>
+                  Normal erosion, also known as geologic erosion, refers to the natural process by which rock and soil are worn away over time by the action of natural forces such as water, wind, ice, and gravity. This type of erosion occurs gradually and is a natural part of the Earth's geological processes.
+                </p>
+              </div>
+              <div id="item-3-2">
+                <h5>Accelerated or Anthropogenic erosion</h5>
+                <p>
+                  Accelerated erosion, also known as anthropogenic erosion, refers to erosion that is significantly accelerated or exacerbated by human activities. While erosion is a natural process, human activities such as agriculture, deforestation, construction, and mining can greatly increase erosion rates, leading to serious environmental and economic consequences.               
+                </p>
+              </div>
+              <div class="w3-text-teal"  id="item-4">
+                <h2>Causes of soil erosion</h2>
+              </div>
+              <div id="item-4-1">
+                <h4>Climatic agents</h4>
+              </div>
+              <div id="item-4-2">
+                <h4>Water induced erosion</h4>
+              </div>
+              <div id="item-4-2-1">
+                <h5>1.Splash erosion</h5>
+                <p>
+                  Splash erosion is the first stage in the process of soil erosion by water. It occurs when raindrops or flowing water detach and transport soil particles. The impact of raindrops hitting the soil surface can dislodge and splash soil particles, leading to their movement and redistribution. Splash erosion can be a significant contributor to soil loss, especially on bare or poorly vegetated surfaces. It can also result in the formation of small channels and rills, which can further accelerate soil erosion if not controlled
+                </p>
+                <img src="" alt="">
+              </div>
+              <div id="item-4-2-2">               
+                <h5>2.Sheet erosion</h5>
+                <p>
+                  Sheet erosion is the process by which a thin, uniform layer of soil is removed from the land surface by the action of rainfall and surface runoff. Unlike rill or gully erosion, which involves the formation of distinct channels or channels in the soil, sheet erosion occurs more evenly across the landscape, often resulting in the gradual loss of topsoil.
+                  Sheet erosion typically occurs on sloping terrain where the soil is not protected by vegetation or other forms of ground cover. The impact of raindrops can dislodge soil particles, and the runoff can carry these particles downslope, leading to the gradual thinning of the soil layer.
+                  Sheet erosion can have significant impacts on soil fertility and productivity, as the topsoil, which is rich in organic matter and nutrients, is lost. It can also contribute to sedimentation in water bodies, leading to water quality issues and habitat degradation.
+                </p>
+                <img src="" alt="">
+              </div>
+              <div id="item-4-2-3">
+                <h5>3.Rill erosion</h5>
+                <p>
+                  Rill erosion is the erosion process in which small, shallow channels are formed in the soil by the concentrated flow of water. It typically occurs on sloping terrain where water runoff is not effectively managed, leading to the formation of small channels called rills. Rill erosion is more severe than sheet erosion but less severe than gully erosion.
+                  Rill erosion usually begins when surface runoff concentrates in small depressions or along natural lines of flow, gradually deepening and widening them into rills. These rills can range in size from a few centimeters to several meters in width and depth, depending on the slope and soil characteristics.
+                  Rill erosion can have significant impacts on soil fertility and productivity, as it can remove the topsoil layer, which is rich in organic matter and nutrients. 
+                </p>
+                <img src="" alt="">
+              </div>
+              <div id="item-4-2-4">
+                <h5>4.Gully erosion</h5>
+                <p>
+                  Gully erosion is a more severe form of erosion characterized by the formation of deep, narrow channels or gullies in the soil. It occurs when concentrated runoff water erodes the soil, creating channels that can be several meters deep and wide. Gully erosion typically occurs in areas with steep slopes, where water runoff is not effectively managed, and can lead to significant soil loss and landscape degradation.
+                  Gully erosion often starts as rill erosion, where small channels are formed on the soil surface. Over time, these channels can deepen and widen, especially during heavy rainfall events or when the soil is already saturated. Gullies can also form rapidly, particularly in areas with unstable soils or where vegetation cover has been removed.
+                </p>
+                <img src="" alt="">
+              </div>
+              <div id="item-4-2-5">
+                <h5>5.Slip erosion</h5>
+                <p>
+                  Slip erosion, also known as slumping or slippage, is a type of soil erosion where layers of soil or rock detach from a slope and move downhill in a mass. This can occur due to various factors such as gravity, water, and changes in the structure or composition of the soil. Slip erosion can lead to the formation of landslides, which can cause significant damage to landscapes, infrastructure, and the environment.
+                </p>
+                <img src="" alt="">
+              </div>
+              <div id="item-4-2-6">
+                <h5>6.Stream bank erosion</h5>
+                <p>
+                  Stream bank erosion is the process by which the soil along the banks of a stream or river is worn away and carried downstream by the flowing water. It is a natural process that can be influenced by factors such as stream flow, sediment load, vegetation cover, and bank composition. However, human activities such as land clearing, urbanization, and agriculture can accelerate stream bank erosion, leading to increased sedimentation, habitat degradation, and infrastructure damage.
+                </p>
+                <img src="" alt="">
+              </div>
+              <div id="item-4-3">
+                <h4>Wind induced erosion</h4>
+              </div>
+              <div id="item-4-3-1">
+                <h5>1.Suspension</h5>
+                <p>
+                  Wind-induced erosion, specifically suspension, is a process where fine soil particles are lifted into the air and carried by the wind. This type of erosion is common in arid and semi-arid regions where the soil is dry, loose, and lacking in vegetation cover. The suspension of soil particles can occur over short distances, leading to dust storms, or over longer distances, contributing to the transport of soil particles over vast areas.
+                  Suspension erosion is influenced by several factors, including wind speed, soil moisture content, soil texture, and the presence of vegetation. Strong winds can lift and transport larger particles, while lighter particles can be lifted by weaker winds. Dry soils are more susceptible to suspension erosion because they are less cohesive and more easily lifted by the wind.
+                </p>
+              </div>
+              <div id="item-4-3-2">
+                <h5>2.Saltation</h5>
+                <p>
+                  Saltation erosion is a type of erosion caused by the transport of sand-sized particles in a bouncing or hopping motion by the wind. This process is common in arid and semi-arid regions where the soil is dry, loose, and lacking in vegetation cover. Saltation erosion can lead to the removal of the top layer of soil, which is often the most fertile and nutrient-rich, leading to reduced soil fertility and productivity.During saltation, windblown particles are lifted into the air by the force of the wind and then fall back to the ground, causing other particles to be dislodged and lifted as well. This bouncing motion allows particles to travel greater distances than they would by simple rolling or sliding along the ground.
+                </p>
+              </div>
+              <div id="item-4-3-3">
+                <h5>3.Surface creep</h5>
+                <p>
+                  Surface creep, also known as soil creep, is a form of wind-induced erosion where fine soil particles are moved horizontally across the ground surface. This process is typically slow and continuous, resulting in the gradual displacement of soil particles over time. Surface creep is influenced by factors such as wind speed, soil moisture content, and the presence of vegetation.
+                </p>
+              </div>
+              <div class="w3-text-teal" id="item-5" style="margin-top: 30px;">
+                <h2>Effects of soil erosion</h2>
+              </div>
+              <div id="item-5-1">
+                <h4>1.Decreased productivity of land</h4>
+              </div>
+              <div id="item-5-2">
+                <h4>2.Desertification of land</h4>
+              </div>
+              <div id="item-5-3">
+                <h4>3.Deposition of soil in water bodies</h4>
+              </div>
+              <div id="item-5-4">
+                <h4>4.Reduction of agricultural land in river banks</h4>
+              </div>
+              <div class="w3-text-teal" id="item-6" style="margin-top: 30px;">
+                <h2>Control of soil erosion</h2>
+              </div>
+              <div id="item-6-1">
+                <h4>1.Conservational till farming</h4>
+                <p>
+                  Unlike conventional tillage, which involves intensive plowing and soil disturbance, conservation tillage involves leaving crop residues on the soil surface and disturbing the soil as little as possible.
+                </p>
+              </div>
+              <div id="item-6-2">
+                <h4>2.Stubble mulching</h4>
+                <p>
+                  Stubble mulching is a conservation tillage practice that involves leaving the crop residue (stubble) from the previous crop on the soil surface. The stubble acts as a natural mulch, covering the soil and providing several benefits for soil health and crop production. Stubble mulching is commonly used in conjunction with no-till or minimum tillage practices to reduce soil erosion, conserve moisture, and improve soil quality.
+                </p>
+              </div>
+              <div id="item-6-3">
+                <h4>3.Contour farming</h4>
+                <p>
+                  Contour farming is a soil conservation practice that involves planting crops along the contour lines of the land, following the natural shape of the terrain. This technique helps to reduce soil erosion by slowing down the flow of water across the land and allowing it to infiltrate into the soil. Contour farming is particularly effective on sloping land, where soil erosion is more likely to occur.
+                </p>
+              </div>
+              <div id="item-6-4">
+                <h4>4.Contour bunding</h4>
+                <p>
+                  Contour bunding is a soil conservation practice that involves constructing earth embankments, or bunds, along the contour lines of sloping land. These bunds help to slow down the flow of water across the land, reduce soil erosion, and improve water infiltration.
+                </p>
+              </div>
+              <div id="item-6-5">
+                <h4>5.Construction of check dams</h4>
+                <p>
+                  Check dams are structures built across a watercourse or drainage ditch to reduce the speed of water flow, control soil erosion, and retain sediment. They are typically constructed using natural materials such as rocks, boulders, logs, or gabions (wire baskets filled with rocks) and are often used in hilly or mountainous terrain to slow down the movement of water and reduce erosion.
+                </p>
+              </div>
+              <div id="item-6-6">
+                <h4>6.Terracing</h4>
+                <p>
+                  Terracing is a soil conservation technique that involves creating a series of level platforms, or terraces, on steep slopes to reduce soil erosion and improve water retention. Terracing is commonly used in hilly or mountainous regions where erosion is a significant problem and where flat land for agriculture is limited.
+                </p>
+              </div>
+              <div id="item-6-7">
+                <h4>7.Strip cropping</h4>
+                <p>
+                  Strip cropping is an agricultural technique that involves planting different crops in alternating strips or bands across a field. This practice is used to reduce soil erosion, improve water retention, and enhance crop yields. Strip cropping is particularly effective on sloping land, where erosion is a significant concern, as it helps to slow down the flow of water and trap sediment.
+                </p>
+              </div>
+              <div id="item-6-8">
+                <h4>8.Alley cropping (Agro-forestry)</h4>
+                <p>
+                  Alley cropping, also known as alley farming, is an agroforestry practice that involves planting rows of trees or shrubs alongside rows of crops. The trees or shrubs provide multiple benefits, such as reducing soil erosion, improving soil fertility, and providing additional income for farmers through the production of timber, fruits, or other products.
+                </p>
+              </div>
+              <div id="item-6-9">
+                <h4>9.Wind breaks</h4>
+                <p>
+                  Windbreaks, also known as shelterbelts or windrows, are rows of trees or shrubs planted to reduce wind speed and protect crops, livestock, and soil from the damaging effects of wind. Windbreaks are typically planted perpendicular to the prevailing wind direction and can vary in width and density depending on the desired level of protection.
+                </p>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-hover-black" href="index.html">1</a>
+      <a class="w3-button w3-hover-black" href="content1.html">2</a>
+      <a class="w3-button w3-hover-black" href="content2.html">3</a>
+      <a class="w3-button w3-black" href="Soil.html">4</a>
+      <a class="w3-button w3-hover-black" href="content3.html">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter" style="padding-top: 60px;">
+
+    <div>
+        <nav class="navbar fixed-bottom bg-body-tertiary">
+            <span>
+
+            </span>
+          </nav>
+    </div>
+
+  </footer>
+
+<!-- END MAIN -->
+</div>
+<footer id="myFooter">
+  <div class="w3-container w3-theme-l2 w3-padding-32">
+    <h4>LAND RESOURCE</h4>
+  </div>
+  <div class="w3-container w3-theme-l1">
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

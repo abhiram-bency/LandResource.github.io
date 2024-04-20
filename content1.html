@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>content1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="index.css" rel="stylesheet">
+<style>    
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+.sidebar{
+  background-color: rgb(26, 130, 94);
+}
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1">HOME</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact us</a>
+    <a href="team.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Our Team</a>
+  </div>
+</div>
+</nav>
+
+<!-- Sidebar -->
+<div class="sidebar">
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  
+  <div class="col-2">
+    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">Classifiaction</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-1-1">Classifiaction of land resources in India</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-2">Based on Land Use</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-3">Based on Ownership</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-4">Based on Productivity</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-5">Based on Natural Features</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-6">Based on Ecological Function</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-7">Based on Legal Status</a>
+        </nav>
+      </nav>
+    </nav>
+  </div>
+</nav>
+</div>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px; padding-top: 80px;">
+
+  <div class="w3-row">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">Land resources</h1>
+      <p>Land resources refer to the natural resources that are found on or in the land. 
+        These resources include soil, water, vegetation, minerals, and wildlife. 
+        They are essential for human survival and economic development. 
+        Soil is important for agriculture, providing a medium for plant growth and supplying nutrients to plants. 
+        Water is crucial for drinking, irrigation, and industrial purposes. Vegetation, including forests and grasslands, provides habitat for wildlife, helps maintain biodiversity, and offers resources such as timber and food. 
+        Minerals are mined from the earth and used in various industries, while wildlife is important for ecological balance and tourism. 
+        Efficient and sustainable management of land resources is essential to ensure their availability for future generations.
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-container">
+        <div>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+              <div id="item-1">
+                <h3>Classifiaction</h3>
+                <p>
+                  Land classifications and land evaluation assist us to interpret whether we are degrading
+                  or enhancing land quality, and to develop better land use plans. Without good land
+                  quality, all forms of terrestrial life on this planet will cease. Land classifications range
+                  from simple, subjective evaluations based on field observations, to complex, computer 
+                </p>
+              </div>
+              <div id="item-1-1">
+                <h4>Classifiaction of land resources in India</h4>
+                <p>
+                  Land resources can be classified in several ways, depending on the criteria used.
+                  Here are some common classifications:
+                </p>
+              </div>
+              <div id="item-1-2">
+                <h4 style="margin-top: 40px;">Based on Land Use:</h4>
+                <p>
+                  <b>Agricultural Land:</b> Land used for farming, including crop cultivation, animal husbandry, and agroforestry.
+                </p>
+                <div class="Item_1-2"><img src="https://property-panda-images.s3.ap-south-1.amazonaws.com/public/images/blog/123/blog%20image100.jpg" alt="Agricultural Land" height="430px" width="650px"></div>
+                <p style="margin-top: 40px;">
+                  <b>Forest Land:</b> Land covered by forests, including natural forests, plantations, and woodlands.
+                </p>
+                <img src="https://cdn.pixabay.com/photo/2022/09/16/23/09/jungle-7459821_640.jpg" alt="Forest Land" height="430px" width="650px">
+                <p style="margin-top: 40px;">
+                  <b>Urban Land:</b> Land used for residential, commercial, industrial, and infrastructural purposes in urban areas.
+                </p>
+                <img src="https://www.zillowstatic.com/bedrock/app/uploads/sites/26/uptown-manhattan-downtown-manhattan-nyc-skyline-780aa4.jpg" alt="Urban Land" height="430px" width="650px">
+                <p style="margin-top: 40px;">
+                  <b>Rural Land:</b> Land used for non-urban purposes, often including agricultural, forested, and natural areas.
+                </p>
+                <img src="https://www.explore.com/img/gallery/step-back-in-time-with-a-visit-to-this-charming-english-countryside/intro-1697743509.jpg" alt="Rural Land" height="430px" width="650px">
+              </div>
+              <div id="item-1-3">
+                <h4 style="margin-top: 40px;">Based on Ownership:</h4>
+                <p>
+                  <b>Public Land:</b> Land owned by the government and managed for public use, such as parks, forests, and roads.
+                </p>
+                <img src="https://agendabrussels2.imgix.net/2efda25e4a040036f340dede2e31dbd203802448.jpg" alt="parks" height="430px" width="650px">
+                <p style="margin-top: 40px;">
+                  <b>Private Land:</b> Land owned by individuals, corporations, or organizations for private use, such as residential or commercial purposes.
+                </p>
+                <img src="https://media.istockphoto.com/id/1269273436/photo/keep-out-private-property-sign-in-red-and-white-on-a-metal-gate-to-fields-of-green-grass-in.jpg?s=612x612&w=0&k=20&c=yRIQQJ39ecCSnBma-H2Ct6pa2Iysb_Mx0obpbMVTfpw=" alt="private land" height="430px" width="650px">
+              </div>
+              <div id="item-1-4">
+                <h4 style="margin-top: 40px;">Based on Productivity:</h4>
+                <p>
+                  <b>Cultivable Land:</b> Land suitable for cultivation, often with fertile soil and adequate water supply.
+                </p>
+                <img src="" alt="">
+                <p>
+                  <b>Non-Cultivable Land:</b> Land unsuitable for cultivation, such as deserts, mountains, and urban areas.
+                  Barren and wasteland for example, rocky, arid, deserts, etc covers 8.61% of land. Moreover, laud for non agriculture uses like building, roads, factories and settlements. etc takes upto 5.57%. Also, the, other uncultivated lands mainly consist of Permanent pastures and grazing land which takes up 3.38%; Land under miscellaneous tree crops groves which is 1.11% and culturable waste land which is 4.17%
+                </p>
+                
+                <p>
+                  <b>Fallow land:</b> Total fallow land in land resources contains 8.13% out of which 4,76% covers the curren fallow. Current fallow in land not cultivated from less than one agricultural year. Lands left uncultivated for one to five years contains 3.37%. If fallow lands are cultivated once or twice in 2 to 3 years, and if these are included in NSA then the percentage of NSA in India will be around 54% for that particular area.
+                </p>
+                
+                <p>
+                  <b>Net Sown Area (NSA):</b> Area sown more than once in an agricultural year in addition to net sowa or gross cropped area is called net sown area or NSA. Net sown area is available in 46.24% in total land resources in India. States of India like Punjab and Haryana have 80% of net sown area from total area. Whereas, Arunachal Pradesh, Mizoram, Manipur and Andaman Nicobar Islands have less than 10% of net sown area from total area
+                </p>
+              </div>
+              <div id="item-1-5">
+                <h4 style="margin-top: 40px;">Based on Natural Features:</h4>
+                <p>
+                  <b>Arable Land:</b> Land suitable for growing crops.
+                </p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Fields_below_Frocester_Hill_%281565%29.jpg/1200px-Fields_below_Frocester_Hill_%281565%29.jpg" alt="arable land" height="430px" width="650px">
+                <p style="margin-top: 40px;">
+                  <b>Pasture Land:</b> Land used for grazing livestock 
+                </p>
+                <img src="https://www.lsuagcenter.com/~/media/system/c/f/3/e/cf3e46844bef35ae67880c61d496d855/johnnyboudreauxheiferslooserein1.jpg?bc=white&as=0&mh=400&mw=1110&sc=25&thn=0" alt="pasture" height="430px" width="650px">
+                <p style="margin-top: 40px;">
+                  <b>Wetland:</b> Land characterized by wet conditions, such as marshes, swamps, and bogs.
+                </p>
+                <img src="https://europe.wetlands.org/wp-content/uploads/sites/3/2023/01/iStock-1288439275-e1675082617468-960x540.jpg" alt="wet land" height="430px" width="650px">
+              </div>
+              <div id="item-1-6">
+                <h4 style="margin-top: 40px;">Based on Ecological Function:</h4>
+                <p>
+                  <b>Natural Land:</b> Land with intact ecosystems and biodiversity, often undisturbed by human activities.
+                </p>
+                <img src="https://www.shutterstock.com/image-photo/magic-pink-rhododendron-flowers-on-600nw-97696616.jpg" alt="natural land" height="430px" width="650px">
+                <p style="margin-top: 40px;">
+                  <b>Degraded Land:</b> Land that has been degraded due to human activities, such as deforestation, pollution, or overgrazing.
+                </p>
+                <img src="https://vajiramandravi.s3.us-east-1.amazonaws.com/media/2019/8/28/12/25/50/1._lad_degradatio.jpg" alt="degraded land" height="430px" width="650px">
+              </div>
+              <div id="item-1-7">
+                <h4 style="margin-top: 40px;">Based on Legal Status:</h4>
+                <p>
+                  <b>Reserved Land:</b> Land set aside for specific purposes, such as conservation, recreation, or military use.
+                </p>
+                <img src="https://img.etimg.com/thumb/width-1200,height-1200,imgsize-628657,resizemode-75,msid-89370552/news/india/land-reserved-for-green-belt-cant-be-allowed-to-be-used-for-raising-any-construction-ngt.jpg" alt="reserved land" height="430px" width="650px">
+                <p style="margin-top: 40px;">
+                  <b>Allocated Land: </b>Land assigned for specific uses, such as agriculture, industry, or residential development.
+                </p>
+                <img src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/1272/cached.offlinehbpl.hbpl.co.uk/news/OPW/Gujarat_india_cSemcorpIndustriesLtd-20190201032851293.jpg" alt="allocated land"height="430px" width="650px">
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-hover-black" href="index.html">1</a>
+      <a class="w3-button w3-black" href="content1.html">2</a>
+      <a class="w3-button w3-hover-black" href="content2.html">3</a>
+      <a class="w3-button w3-hover-black" href="Soil.html">4</a>
+      <a class="w3-button w3-hover-black" href="content3.html">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter" style="padding-top: 60px;">
+
+    <div>
+        <nav class="navbar fixed-bottom bg-body-tertiary">
+
+          </nav>
+    </div>
+
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
